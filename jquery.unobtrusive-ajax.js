@@ -12,6 +12,7 @@
 /*!
 ** Unobtrusive Ajax support library for jQuery
 ** Copyright (C) Microsoft Corporation. All rights reserved.
+** @version v3.2.4
 */
 
 /*jslint white: true, browser: true, onevar: true, undef: true, nomen: true, eqeqeq: true, plusplus: true, bitwise: true, regexp: true, newcap: true, immed: true, strict: false */
