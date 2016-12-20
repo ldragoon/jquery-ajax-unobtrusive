@@ -12,7 +12,9 @@ gulp.task("updateFileHeader", function(){
 
 gulp.task("minifyJS", function () {
     gulp.src(["jquery.unobtrusive-ajax.js"], { base: "." })
-        .pipe(uglify())
+        .pipe(uglify({
+            preserveComments: 'license'
+        }))
         .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest("."));
 });
